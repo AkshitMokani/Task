@@ -1,0 +1,169 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "Campaigns",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "campaignName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "targetAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timeDuration",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "raisedFund",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "pendingRaisedFund",
+						"type": "uint256"
+					},
+					{
+						"internalType": "bool",
+						"name": "funded",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "campaignName",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "targetAmount",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "timeDuration",
+						"type": "uint256"
+					}
+				],
+				"name": "campaignCreation",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "campaignIdCount",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "campaignId",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "fundAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "contributeCampaign",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "campaignId",
+						"type": "uint256"
+					}
+				],
+				"name": "isCampaignCreated",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"CrowdFunding.sol": "crowdFunding"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"CrowdFunding.sol": {
+			"keccak256": "0x6050df9720bdbd9fe24c13775823686b47bda36d30d6f8cadd3419576029a410",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a3cd31d76ae7c26d094746affd5f91fb803b0070f293c920555e1ca9a6f5e2ba",
+				"dweb:/ipfs/QmUDZz9PxgjqJXovTh6bAgumkNCTAvP887mdRdRoxMptMY"
+			]
+		}
+	},
+	"version": 1
+}
