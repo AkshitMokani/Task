@@ -232,11 +232,11 @@
 	},
 	"sources": {
 		"Multi-Signature_Wallet.sol": {
-			"keccak256": "0x0373704f95669d634fe2e2c3760609c198f5c7f5814d75922ef799899d0306b5",
+			"keccak256": "0x1f803a40cccb301c5be73a84f1011047ff63fe11555ab86e78d92366d0f1b8ab",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://f65b7d50654b7127ca41d06c6e4db8c6784b82f2b4b44495d3ff15bf01a43bef",
-				"dweb:/ipfs/QmawKzsRhE4PkaiNnoVMnhnysCQrL36G1cWmpRdaiSWQ5T"
+				"bzz-raw://35373f80601a78498c5c9579b102f8f3e4fe737ce4b7d9b5eca056e4473ce341",
+				"dweb:/ipfs/QmRuqUREjzyhs81Euw4anPdvZLxr9uDBDaGEGR45khTWqS"
 			]
 		}
 	},

@@ -31,7 +31,6 @@ contract MultiSignature_Wallet
 
     function submitTransaction(address to) public
     {
-        
         require(checkOwner(msg.sender), "Not an owner!");
         require(to != address(0),"Invalid Destination Address");
         
@@ -42,7 +41,6 @@ contract MultiSignature_Wallet
         transaction.executed = false;
 
         emit TransactionCreated(transactionId, to);
-
     }
 
     function signTransactrion(uint transactionId) public 

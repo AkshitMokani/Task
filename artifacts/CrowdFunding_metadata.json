@@ -316,7 +316,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo.sol": "CrowdFunding"
+			"CrowdFunding.sol": "CrowdFunding"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -330,12 +330,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo.sol": {
-			"keccak256": "0xe0e8e8e068a11bbafe1fd3b137803f6afee671b640c157242092e8369535b91a",
+		"CrowdFunding.sol": {
+			"keccak256": "0x162a1491fa0ea392c80a90a0b1569cddf3fb48791f51ddc93c4f0dc02820ddaf",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bd139d349564451673f588ca2d1ce2d482835bcb89ff70bf99e83583eeafceca",
-				"dweb:/ipfs/QmWFRkaQm3wkhmn2hVdR3ytr3rxWZE6ELGqENR3QR5vKyd"
+				"bzz-raw://b1a192727f3119165c3812a76712d8da8ce01fa2d104ed7adaf99a3d9d4fb0f5",
+				"dweb:/ipfs/QmVp1hfKEuBqvMCfhKTBwtMeMvYVJYUPgowxcCAdxvaWBB"
 			]
 		}
 	},
