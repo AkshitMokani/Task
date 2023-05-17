@@ -336,7 +336,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo.sol": "MyToken_OZ"
+			"ERC20-Token.sol": "MyToken_OZ"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -382,7 +382,7 @@
 				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
 			]
 		},
-		"demo.sol": {
+		"ERC20-Token.sol": {
 			"keccak256": "0x17dc0395253309387d0aa8ac9fedd6b40c82a9f6ec901158b5343254c7aef8f2",
 			"license": "GPL-3.0",
 			"urls": [

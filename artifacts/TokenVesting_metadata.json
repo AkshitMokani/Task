@@ -41,44 +41,10 @@
 						"internalType": "address",
 						"name": "_beneficiary",
 						"type": "address"
-					}
-				],
-				"name": "calculateVestedAmount",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_beneficiary",
-						"type": "address"
 					},
 					{
 						"internalType": "uint256",
 						"name": "_totalTokens",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_startTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_cliffDuration",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "_vestingDuration",
 						"type": "uint256"
 					}
 				],
@@ -131,50 +97,6 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"name": "vestingSchedules",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "totalTokens",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "startTime",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "cliffDuration",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "vestingDuration",
-						"type": "uint256"
-					},
-					{
-						"internalType": "uint256",
-						"name": "releasedTokens",
-						"type": "uint256"
-					},
-					{
-						"internalType": "bool",
-						"name": "isActive",
-						"type": "bool"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -190,7 +112,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"vesting.sol": "TokenVesting"
+			"Vesting1.sol": "TokenVesting"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -204,12 +126,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"vesting.sol": {
-			"keccak256": "0xffea899500f11355e11fa0c9f4a0ebc98dd1db172064b01528e86d7c9dbb4a1d",
+		"Vesting1.sol": {
+			"keccak256": "0x449d3439b6c07bc7c2a2aeedad49db51f314d4f0e22e1f4dee3f61ab83df25c3",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://49e64eda49a1288c065b4c1c1a4f8b0f6cd101d8b347026342c6ecee1b3aa34f",
-				"dweb:/ipfs/QmbspiweHdC6LJDtjBKGpQBLe66keZwTMPfQFmQPn5fTxR"
+				"bzz-raw://d7e7b68cd36eaa6e1e1999650a10f6bf0ec626e9c758204c2559c5c65412ec50",
+				"dweb:/ipfs/QmPyzZRM3gHrhE9q1XgEQVWzyAHXJxp51cBExDPXkJLifp"
 			]
 		}
 	},
