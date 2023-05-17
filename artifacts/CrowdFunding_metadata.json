@@ -111,19 +111,6 @@
 				"type": "event"
 			},
 			{
-				"inputs": [],
-				"name": "TOTAL_TOKEN_SUPPLY",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "uint256",
@@ -331,11 +318,11 @@
 	},
 	"sources": {
 		"CrowdFunding.sol": {
-			"keccak256": "0x162a1491fa0ea392c80a90a0b1569cddf3fb48791f51ddc93c4f0dc02820ddaf",
+			"keccak256": "0x7d33d883a864c5e4bdc3e71f3dace50cb23508d5144f24ca4f66711195e6c7da",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://b1a192727f3119165c3812a76712d8da8ce01fa2d104ed7adaf99a3d9d4fb0f5",
-				"dweb:/ipfs/QmVp1hfKEuBqvMCfhKTBwtMeMvYVJYUPgowxcCAdxvaWBB"
+				"bzz-raw://873d4f312e75450f9cf175ff626fa4b86a294631898e1ad85c1bdb9631ac6ddb",
+				"dweb:/ipfs/QmTDcMZEpkwLCsjicJBU16ChfQVbzVfn3CzB77VdG7kXp3"
 			]
 		}
 	},

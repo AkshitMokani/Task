@@ -8,19 +8,32 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "spender",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_totalSupply",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
+				"name": "approve",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
 				"stateMutability": "nonpayable",
-				"type": "constructor"
+				"type": "function"
 			},
 			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "",
+						"name": "account",
 						"type": "address"
 					}
 				],
@@ -36,58 +49,24 @@
 				"type": "function"
 			},
 			{
-				"inputs": [],
-				"name": "name",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "symbol",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "totalSupply",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_to",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "recipient",
 						"type": "address"
 					},
 					{
 						"internalType": "uint256",
-						"name": "_amount",
+						"name": "amount",
 						"type": "uint256"
 					}
 				],
-				"name": "transfer",
+				"name": "transferFrom",
 				"outputs": [
 					{
 						"internalType": "bool",
@@ -112,7 +91,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"CrowdFunding.sol": "Token"
+			"Borrow_Lending.sol": "IERC20"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -126,12 +105,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"CrowdFunding.sol": {
-			"keccak256": "0xef09e79630c4f662c8953409ce29d766f601ccc657240ae9e0d74405082221ee",
+		"Borrow_Lending.sol": {
+			"keccak256": "0xeee7928a088d8f158c44ceca3d6d0343aa897a0144c65cf43d99e3bf96d94efc",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://432ee0cdc7fa1b2dccd133a6ac100ce92881f9cd7a81fbe4130afca746a1b1f7",
-				"dweb:/ipfs/QmQu7MiNfFNykYF8EobpRKwiYY1rcn293kWbpwka3vyH48"
+				"bzz-raw://5857f083db46910a18e9503a7043f98f157e7b4c7f134b176454f99b80f53c05",
+				"dweb:/ipfs/QmSDqnMBYV7x5gc7387Xt5mMJB6xKbqZM1Lff51w9i6eMV"
 			]
 		}
 	},

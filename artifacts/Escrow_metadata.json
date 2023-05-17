@@ -6,184 +6,89 @@
 	"output": {
 		"abi": [
 			{
-				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "buyer",
+						"internalType": "address payable",
+						"name": "_buyer",
 						"type": "address"
 					},
 					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "seller",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "DisputeResolved",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "buyer",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "seller",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "FundsDeposited",
-				"type": "event"
-			},
-			{
-				"anonymous": false,
-				"inputs": [
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "buyer",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "address",
-						"name": "seller",
-						"type": "address"
-					},
-					{
-						"indexed": false,
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					}
-				],
-				"name": "FundsReleased",
-				"type": "event"
-			},
-			{
-				"inputs": [],
-				"name": "approveTransaction",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "_seller",
 						"type": "address"
 					}
 				],
-				"name": "depositFunds",
-				"outputs": [],
-				"stateMutability": "payable",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_buyer",
-						"type": "address"
-					}
-				],
-				"name": "disputeTransaction",
-				"outputs": [],
 				"stateMutability": "nonpayable",
-				"type": "function"
+				"type": "constructor"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_user",
-						"type": "address"
-					}
-				],
-				"name": "getTransactionStatus",
+				"inputs": [],
+				"name": "buyer",
 				"outputs": [
 					{
-						"internalType": "enum Escrow.EscrowStatus",
+						"internalType": "address payable",
 						"name": "",
-						"type": "uint8"
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_buyer",
-						"type": "address"
-					}
-				],
-				"name": "releaseFunds",
+				"inputs": [],
+				"name": "confirmPayment",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
-				"inputs": [
+				"inputs": [],
+				"name": "escrow",
+				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
 				],
-				"name": "transactions",
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "failed",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payment",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "seller",
 				"outputs": [
 					{
-						"internalType": "address",
-						"name": "buyer",
+						"internalType": "address payable",
+						"name": "",
 						"type": "address"
-					},
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
 					{
-						"internalType": "address",
-						"name": "seller",
-						"type": "address"
-					},
-					{
-						"internalType": "uint256",
-						"name": "amount",
-						"type": "uint256"
-					},
-					{
-						"internalType": "enum Escrow.EscrowStatus",
-						"name": "status",
+						"internalType": "enum Escrow.State",
+						"name": "",
 						"type": "uint8"
-					},
-					{
-						"internalType": "bool",
-						"name": "buyerApproved",
-						"type": "bool"
-					},
-					{
-						"internalType": "bool",
-						"name": "sellerApproved",
-						"type": "bool"
 					}
 				],
 				"stateMutability": "view",
@@ -203,7 +108,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"demo.sol": "Escrow"
+			"Escrow_Simple.sol": "Escrow"
 		},
 		"evmVersion": "shanghai",
 		"libraries": {},
@@ -217,12 +122,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"demo.sol": {
-			"keccak256": "0x4b2cd4d55bf409eaf6760c28cc536f4cad6796515f41e53d8361b05f33d25dbc",
+		"Escrow_Simple.sol": {
+			"keccak256": "0xb44d6c4d7fda7ccb78d4e53f151a5f791fc591ecb4150123082b61d8232d7c61",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://73db64d621e35e8f194e297c9ff33ef28d2075fa80e49defe80b88c9fc933c8e",
-				"dweb:/ipfs/QmPkjem5FmgMm2vS6rJFbZUjWhAhPUn9n39izTuAzHRqUS"
+				"bzz-raw://5379b4a2ed7740240b5f8939ee334cf9cd54b99b08d596417d3c1d9dc1cc8cb5",
+				"dweb:/ipfs/QmZorL8ydapzx3CfuBCn5pFWFuUt4zEZ4UQWG3pUb2d9VZ"
 			]
 		}
 	},
