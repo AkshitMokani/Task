@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.20+commit.a1b79de6"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Task Management/TaskManagement.sol": "TaskManagement"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Task Management/TaskManagement.sol": {
+			"keccak256": "0xf6c0f2a47cdc7c1d70c1bcf8bfebc52dffb8cd72890ae328d24f188769d6ac57",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aa291acde717537d245bce55207f9506aee80d1b707a242d917027ce79557593",
+				"dweb:/ipfs/QmZNvZNL88tzJkVgdirono6iL7e3RcQtQUcEcYCm1q6xTu"
+			]
+		}
+	},
+	"version": 1
+}
